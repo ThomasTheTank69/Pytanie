@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.love-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: transform 0.2s; /* Dodajemy przejście (animację) transformacji */
+}
+
+button#yesBtn {
+  background-color: #4caf50;
+  color: white;
+}
+
+button#noBtn {
+  background-color: #f44336;
+  color: white;
+}
+
+button#noBtn:hover {
+  transform: scale(1.1); /* Powiększenie przycisku przy najechaniu myszką */
+}
+
+button:active,
+button:focus {
+  outline: none; /* Usuwamy domyślny obramowanie przycisku po kliknięciu */
+}
